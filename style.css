@@ -1,9 +1,44 @@
-.fs-div{
-    float: left;
-    margin: 100px 100px 100px;
-    width: 500px;
-}
 
 .purple-highlight{
     color: mediumvioletred;
 }
+.btn_hire{
+    background-color: mediumvioletred;
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+    padding: 5px 7px;
+    text-decoration: none;
+    font-weight: 700px;
+}
+
+.first-section{
+    display: flex;
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    width: 100%; 
+    height: auto;
+    position: relative;
+    background-size: 1141px 565px;
+}
+
+.fs-div{
+    width: 398px;
+    height:2000px;
+    float: left;
+    margin: 106px 46px 10px 185px;
+}
+.fs-div2{
+    width:510px;
+    /* height:2000px; */
+    background-image: url("images/peter.png");
+    background-repeat: no-repeat;   
+    /* background-size: contain; */
+    background-size: 400px 387px;
+    margin: 10px 0px 0px 0px;
+}
+/* .fs-div2.fs-div2.background-image{
+    width: 100px;
+    height: 500px;
+
+} */
