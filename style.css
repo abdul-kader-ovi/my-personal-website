@@ -17,14 +17,34 @@
     background-image: url("images/header-bg.png");
     background-repeat: no-repeat;
     width: 100%; 
-    height: auto;
+    height: 500px;
     position: relative;
     background-size: 1141px 565px;
+}
+.second-section{
+    position: relative;
+    background: url("images/biography-bg.png");
+    display: flex;
+    height: 500px;
+}
+.third-section{
+    height: 500px;
+    position: relative;
+    background: url("images/latest-work-bg.png");
+    display: flex;
+   
+}
+.fourth-section{
+    height: 500px;
+    position: relative;
+    background: url("images/footer-bg.png");
+    display: flex;
+    
 }
 
 .fs-div{
     width: 398px;
-    height:2000px;
+    height:auto;
     float: left;
     margin: 106px 46px 10px 185px;
 }
@@ -34,11 +54,21 @@
     background-image: url("images/peter.png");
     background-repeat: no-repeat;   
     /* background-size: contain; */
-    background-size: 400px 387px;
+    background-size: 400px 400px;
     margin: 10px 0px 0px 0px;
 }
-/* .fs-div2.fs-div2.background-image{
-    width: 100px;
+.ss-div{
+    width: 45%;
+    height: auto;
+}
+.ss-div2{
+    width: 45%;
+    height: auto;
+    margin-top: 240px;
+    margin-left: 30px;
+}
+.ss-div-img{
     height: 500px;
-
-} */
+    width: 90%;
+    margin-top: 50px;
+}
