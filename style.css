@@ -17,14 +17,35 @@
     background-image: url("images/header-bg.png");
     background-repeat: no-repeat;
     width: 100%; 
-    height: auto;
+    height: 500px;
     position: relative;
     background-size: 1141px 565px;
+}
+.second-section{
+    position: relative;
+    background: url("images/biography-bg.png");
+    display: flex;
+    height: 600px;
+}
+.third-section{
+    height: 500px;
+    position: relative;
+    background: url("images/latest-work-bg.png");
+    display: flex;
+   
+}
+.fourth-section{
+    height: 560px;
+    position: relative;
+    background: url("images/footer-bg.png");
+    display: flex;
+    background-size: 1000px;
+    
 }
 
 .fs-div{
     width: 398px;
-    height:2000px;
+    height:auto;
     float: left;
     margin: 106px 46px 10px 185px;
 }
@@ -34,11 +55,105 @@
     background-image: url("images/peter.png");
     background-repeat: no-repeat;   
     /* background-size: contain; */
-    background-size: 400px 387px;
+    background-size: 400px 400px;
     margin: 10px 0px 0px 0px;
 }
-/* .fs-div2.fs-div2.background-image{
-    width: 100px;
+.ss-div{
+    width: 45%;
+    height: auto;
+}
+.ss-div2{
+    width: 45%;
+    height: auto;
+    margin-top: 240px;
+    margin-left: 30px;
+}
+.ss-div-img{
     height: 500px;
+    width: 90%;
+    margin-top: 50px;
+}
+.ts-div{
+    width: 30%;
+    height: auto;
+}
 
-} */
+.ts-div2{
+    width: 30%;
+    height: auto;
+}
+.ts-div3{
+    width: 30%;
+    height: auto;
+}
+.fts-div{
+    position:absolute   ;
+    top: 0;
+    left: 0;
+    margin: 0px 480px 250px 480px;
+    
+}
+.fts-div2{
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    background-image: linear-gradient(45deg, hotpink, deeppink);
+    color: whitesmoke;
+    padding: 20px 60px 20px 30px;
+    box-shadow:0 4px 8px 0 rgba(whitesmoke, hotpink, pink);
+    margin: 100px 10px 60px 420px;
+    width: 400px;
+    border-radius: 5px;
+    
+}
+
+.fts-div3{
+    position: absolute;
+    bottom: 0;
+    margin: 490px 470px 2px 470px;
+}
+.ts-div-img{
+    height: 400px;
+    width: 90%;
+}
+.fs-div-img{
+    height: auto;
+    width: auto;
+}
+#client{
+    font-size:x-large;
+    font-weight: bolder;
+    margin: 0px 10px 70px 40px;
+
+}
+#bruce{
+    font-size: medium;
+    font-weight: bold;
+    margin-left: 90px;
+
+}
+
+#founder{
+    font-size: small;
+    margin-left: 75px;
+    margin-bottom: 15%;
+    font-weight: 500;
+    color: darkgray;
+}
+#lorem{
+    margin-bottom: 100px;
+    font-size: large;
+}
+#message{
+    margin-left: 100px;
+}
+#email{
+    font-weight: bold;
+    font-size: larger;
+    margin-left: 80px;
+
+}
+#footNote{
+    font-size: small;
+    color: grey;
+}
